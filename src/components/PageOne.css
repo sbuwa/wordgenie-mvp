@@ -1,0 +1,30 @@
+
+.Logo{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.ContainerOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.OneLeft{
+    margin-top: 50%;
+    padding: 2rem;
+    font: 4em sans-serif;
+}
+.OneRight{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 5rem;
+}
+
+@media (max-width:481px) {
+    .ContainerOne{
+        grid-template-columns: 1fr;
+    }
+}
